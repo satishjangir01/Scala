@@ -1,0 +1,13 @@
+//Create a class named writer should have first name, surname, year of birth and a method fullname which returns concatenation of first name and surname.
+
+class writer (firstname: String, surname: String, year: Int){
+  def fullname: String = firstname + " " + surname
+  
+//Now create some instances to test this code
+
+val writer = new writer("Yash", "Jangir", 2020)
+
+//Let's print this
+
+println(writer.fullname)
+
